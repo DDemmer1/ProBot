@@ -17,9 +17,9 @@ public class TrainingBot extends Bot {
         try {
             run = true;
             while(run) {
-                left(2);
+                up(1);
                 attack();
-                right(2);
+                down(2);
                 attack();
             }
         } catch (InterruptedException e) {

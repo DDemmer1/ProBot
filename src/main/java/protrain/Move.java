@@ -18,4 +18,11 @@ public class Move {
         return action;
     }
 
+    @Override
+    public String toString() {
+        return "Move{" +
+                "amount=" + amount +
+                ", action=" + action +
+                '}';
+    }
 }

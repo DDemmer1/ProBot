@@ -126,4 +126,9 @@ public abstract class Bot extends Thread {
     }
 
 
+    public boolean getRun(){
+        return run;
+    }
+
+
 }
